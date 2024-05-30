@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    tools:context=".Add_Category">
+
+    <EditText
+        android:id="@+id/editCategory"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Enter Category"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/setCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/one"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Set Card"
+        app:layout_constraintEnd_toEndOf="@+id/editCategory"
+        app:layout_constraintStart_toStartOf="@+id/editCategory"
+        app:layout_constraintTop_toBottomOf="@+id/editCategory" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

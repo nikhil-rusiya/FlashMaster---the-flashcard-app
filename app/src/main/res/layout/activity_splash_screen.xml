@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/flashLogo"
+        android:layout_width="354dp"
+        android:layout_height="318dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="140dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/branding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FAF9F6"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Flash-Master"
+        android:textColor="@color/one"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flashLogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

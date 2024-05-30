@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "869694080696",
+    "project_id": "flashmaster-84076",
+    "storage_bucket": "flashmaster-84076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869694080696:android:3bf068225596b4feed964d",
+        "android_client_info": {
+          "package_name": "com.example.flashmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPSJoA2Po9k6wltDKOod6pUkfTE8NbY_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
